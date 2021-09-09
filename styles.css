@@ -9,14 +9,12 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif
-    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
 }
 
 nav {
-    width: 95%;
-    
+    width: 99%;
 }
     
 .material-icons {
@@ -35,16 +33,26 @@ nav {
 .nav-links {
     display: flex;
     list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+
 }
 
 .nav-item a {
-    display: inline-block;
+    display: flex;
     padding: 10px;
     text-decoration: none;
     color: rgb(43, 42, 42);;
-    font-size: .8rem;
+    font-size: .74rem;
 }
 
+button {
+    background-color: #4c8bf5;
+    color: white;
+    border: none;
+    padding:15px 10px;
+    text-align: center;
+}
 .center_search {
     margin: auto;
     width: 80%;
