@@ -53,6 +53,18 @@ button {
     padding:15px 10px;
     text-align: center;
 }
+
+.img-container {
+    position: relative;
+    height: 1000px;
+}
+img {
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
 .center_search {
     margin: auto;
     width: 80%;
