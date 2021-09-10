@@ -58,7 +58,7 @@ a {
     font-size: .74rem;
 }
 
-button {
+button.login {
     background-color: #4c8bf5;
     color: white;
     border: none;
@@ -66,6 +66,18 @@ button {
     text-align: center;
 }
 
+button.searchtab {
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: rgb(95, 90, 90);
+    background-color: #f0f0f0 ;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 5px;
+
+}
 .img-container {
     position: relative;
     height: 210px;
@@ -76,7 +88,6 @@ img {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
 }
 
 .searchbar {
@@ -85,16 +96,24 @@ img {
     position: relative;
 }
 .searchbox {
-    width: 42%;
+    width: 44%;
     padding: 14px 20px;
     border: 1px solid lightgray;
-    border-radius: 20px;
+    border-radius: 22px;
 }
+
 .center_search {
     margin: auto;
     width: 80%;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    left: 10%;
 }
 
 footer {
+    text-align: center;
+    position: absolute;
+    top: 200px;
     
 }
